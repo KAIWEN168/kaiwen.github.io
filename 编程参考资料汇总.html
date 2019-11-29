@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 头标签 -->
+		<title>编程参考资料汇总</title>
+		<meta charset="utf-8">
+		<!-- 为网站添加图标 -->
+		<link rel="icon" type="image/x-icon" href="./image/title_image.png">
+		<base target="_blank">
+		<style>
+			/*设置页面颜色为浅灰*/
+			body {
+				background-color:#eee
+			}
+			/*设置标题*/
+			h1 {
+				text-indent:32px;
+			}
+			/*设置副标题*/
+			p.fubiaoti{
+				text-indent:240px;
+				line-height:0px;
+			}
+			/*设置尾语*/
+			p.weiyu {
+				text-indent:128px;
+				font-size:32px
+			}
+			ul.zhulibiao{
+				text-indent:32px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>编程参考资料汇总</h1>
+		<p class="fubiaoti">----由凯文总结</p>
+		<br>
+		<form action="" method="GET" onsubmit="return check(this)">
+			<input type="text" class="userId" name="userId" value=''><br>
+			<input type="password" class="password" name="password" value=''>
+			<input type=submit name="1234" value="登陆"> 
+		</form>
+		<br>
+		<script type="text/javascript">
+			function check(form) {
+				 if(form.userId.value=='') {
+					   alert("请输入用户帐号!");
+					   form.userId.focus();
+					   return false;
+				  }
+				  if(form.password.value==''){
+					   alert("请输入登录密码!");
+					   form.password.focus();
+					   return false;
+				   }
+				   return true;
+			}
+		</script>
+		<img src="./image/head_image.jpg" alt="404 not found">
+		<ul class="zhulibiao">
+			<li>
+				<cite><strong>工具使用类</strong></cite>
+				<ul>
+					<strong>搜索引擎</strong>
+					<ul>
+						<li><a href="https://www.baidu.com">百度搜索</a></li>
+						<li><a href="https://image.baidu.com">百度图片</a></li>
+						<li><a href="https://map.baidu.com">百度地图</a></li>
+						<li><a href="http://www.google.cn/maps/">谷歌地图</a></li>
+					</ul>
+					<strong>翻译引擎</strong>
+					<ul>
+						<li><a href="https://fanyi.baidu.com">百度翻译</a></li>
+						<li><a href="https://translate.google.cn/">谷歌翻译</a></li>
+						<li><a href="http://fanyi.youdao.com/">有道翻译</a></li>
+						<li><a href="http://fanyi.so.com/">360翻译</a></li>
+					</ul>
+					
+				</ul>
+				<cite><strong>论坛交流类</strong></cite>
+				<ul>
+					<li><a href="https://fishc.com.cn/forum.php">鱼C论坛</a></li>
+					<li><a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E7%BC%96%E7%A8%8B&fr=search">编程贴吧</a></li>
+					<li><a href="http://tieba.baidu.com/f?ie=utf-8&kw=python&fr=search">Python贴吧</a></li>
+					<li><a href="http://tieba.baidu.com/f?ie=utf-8&kw=C%E8%AF%AD%E8%A8%80&fr=search">C语言贴吧</a></li>
+				</ul>
+			</li>
+			<li>
+				<cite><strong>知识点查阅类</strong></cite>
+				<ul>
+					<strong>通用</strong>
+					<ul>
+						<li><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=128224&extra=page%3D1%26filter%3Dtypeid%26typeid%3D731">鱼C论坛-正则表达式</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<strong>Python</strong>
+					<ul>
+						<li><a href="https://fishc.com.cn/forum.php?mod=viewthread&tid=95893&extra=page%3D1%26filter%3Dtypeid%26typeid%3D701">鱼C论坛- Requests 模块帮助文档（小甲鱼版）</a></li>
+						<li><a href="https://www.runoob.com/python/python-socket.html">菜鸟教程-python网络编程</a></li>
+						<li><a href="https://www.runoob.com/python/python-built-in-functions.html">菜鸟教程-python内置函数</a></li>
+						<li><a href="https://www.cnblogs.com/cccy0/p/9048723.html">博客园-异常处理与自定义异常</a></li>
+						<li><a href="https://www.cnblogs.com/jessicaxu/p/7727264.html">博客园-Python判断变量的数据类型的两种方法</a></li>
+						<li><a href="https://www.cnblogs.com/jiduxia/p/8073868.html">博客园-python第三方库的安装与卸载</a></li>
+						<li><a href="https://www.cnblogs.com/dongxiaodong/p/10490563.html">博客园-Python微信操控（itchat）</a></li>
+						<li><a href="https://eyehere.net/2011/python-pygame-novice-professional-1/">博客园-用Python和Pygame写游戏-从入门到精通（1）</a></li>
+						<li><a href="https://www.cnblogs.com/themost/p/6900852.html">博客园-selenium用法详解</a></li>
+						<li><a href="https://www.cnblogs.com/jyroy/p/9446486.html">博客园-数据可视化pyecharts的使用</a></li>
+						<li><a href="https://github.com/pyecharts/pyecharts-gallery">github-pyecharts数据分析源码大全</a></li>
+						<li><a href="https://blog.csdn.net/john_xyz/article/details/54645527">CSDN-中文分词的基本原理以及jieba分词的用法</a></li>
+						<li><a href="https://blog.csdn.net/lingdongtianxia/article/details/81610799">CSDN-pygame之key模块</a></li>
+						<li><a href="https://blog.csdn.net/qq_41777113/article/details/79436166">CSDNygame学习(一)创建最简单窗口以及设置背景色</a></li>
+						<li><a href="https://blog.csdn.net/qq_41251963/article/details/81776752">CSDN-python机器学习——图像内容分析</a></li>
+						<li><a href="https://blog.csdn.net/qq_39463175/article/details/88377270">CSDN-Python破解WIFI密码详细介绍</a></li>
+						<li><a href="https://www.jb51.net/article/127227.htm">脚本之家-python网络编程</a></li>
+						<li><a href="https://cuiqingcai.com/1319.html">静觅-爬虫利器二之Beautiful Soup的用法</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<strong>VBS</strong>
+					<ul>
+						<li><a href="https://blog.csdn.net/xiaohei_dev/article/details/53931093">CSDN-VBS《模拟按键》</a></li>
+						<li><a href="https://blog.csdn.net/xiaohei_dev/article/details/53931197">CSDN-VBS《文件操作》</a></li>
+						<li><a href="https://blog.csdn.net/xiaohei_dev/article/details/53931170">CSDN-VBS《弹出窗口》</a></li>
+						<li><a href="https://blog.csdn.net/xiaohei_dev/article/details/53931210">CSDN-VBS《条件语句》</a></li>
+						<li><a href="https://blog.csdn.net/xiaohei_dev/article/details/53931225">CSDN-VBS《表格处理》</a></li>
+						<li><a href="https://blog.csdn.net/xiaohei_dev/article/details/53931202">CSDN-VBS《日期时间》</a></li>
+						<li><a href="https://blog.csdn.net/xiaohei_dev/article/details/53931170">CSDN-VBS《弹出窗口》</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<strong>WEB前端</strong>
+					<ul>
+						<li><a href="https://man.ilovefishc.com/html5/">FishC-HTML速查宝典</a></li>
+						<li><a href="https://man.ilovefishc.com/css3/">FishC-CSS样式速查宝典</a></li>
+					</ul>
+				</ul>
+			</li>
+			<li>
+				<cite><strong>学习教程类</strong></cite>
+				<ul>
+					<strong>Python</strong>
+					<ul>
+						<li><a href="https://www.bilibili.com/video/av52080698">blibili-《零基础入门学习Python》最新版（小甲鱼）</a></li>
+						<li><a href="https://www.bilibili.com/video/av27789609">blibili-《零基础入门学习Python》（小甲鱼）</a></li>
+						<li><a href="https://www.bilibili.com/video/av34609030">blibili-【绘图篇】《极客Python之效率革命》（小甲鱼）</a></li>
+						<li><a href="https://www.bilibili.com/video/av23695737">blibili-【爬虫篇】《极客Python之效率革命》（小甲鱼）</a></li>
+						<li><a href="https://www.bilibili.com/video/av23697305">blibili-【办公篇】《极客Python之效率革命》（小甲鱼）</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<strong>C语言</strong>
+					<ul>
+						<li><a href="https://www.bilibili.com/video/av27744141">blibili-【C语言】《带你学C带你飞》（小甲鱼）</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<strong>WEB前端</strong>
+					<ul>
+						<li><a href="https://www.bilibili.com/video/av21786264">blibili-【Web前端开发】《零基础入门学习Web开发》（HTML5&CSS3）（小甲鱼）</a></li>
+						<li><a href="https://www.bilibili.com/video/av36125338">blibili-2019权威「JavaScript/JS」零基础入门精英课【渡一教育】</a></li>
+					</ul>
+				</ul>
+				<ul>
+					<strong>VBS</strong>
+					<ul>
+						<li><a href="https://wenku.baidu.com/view/59a102314693daef5ef73dcb.html">百度文库-完整的VBS教程(超级实用)</a></li>
+					</ul>
+				</ul>
+			</li>
+			<li>
+				<cite><strong>参考作品</strong></cite>
+				<ul>
+					<li><a target='' href="测试文档.html">测试文档.html</a></li>
+					<li><a target='' href="课程表.html">初一课程表.html</a></li>
+					<li><a target='' href="自我介绍.html">自我介绍.html</a></li>
+				</ul>
+			</li>
+			<li>
+				<cite><strong>其他</strong></cite>
+				<ul>
+					<li><a href="https://www.bilibili.com">bilibili-哔哩哔哩 (゜-゜)つロ 干杯~</a></li>
+				</ul>
+			</li>
+		</ul>
+		<br>
+		<p class="weiyu">大坑待填，敬请期待......</p>
+		<br>
+		<small>本页面最终解释权归作者所有</small>
+		<!-- 显示作者信息 -->
+		<address>
+			<p>作者信息：<abbr title="出生日期：2006.08.18">上官凯文</abbr>，13岁</p>
+			<blockquote>
+				<!-- mark，添加标记，默认黄色底板 -->
+				<p>爱好：编程：<mark>C语言</mark>、<mark>python</mark>、<mark>WEB前端</mark>、<mark>batch批处理</mark></p>
+				<p>联系电话：15838189794</p>
+			</blockquote>
+		</address>
+	</body>
+</html>
